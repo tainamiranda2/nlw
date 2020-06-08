@@ -1,0 +1,54 @@
+:root {
+    --title-color: #4B0082;
+    /*cor geral*/
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*configuração do cabeçario*/
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #579;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    /*tirr um sublinhado*/
+}
+
+header {
+    display: flex;
+    /*deixa os links um ao lado do outro*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    width: 90%;
+    /*largura*/
+    max-width: 1100px;
+    /*largura maxima da pagina*/
+    margin: 0 auto;
+    /*deixar os lados com tamanho automtico com uma so´entradsa*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubunto', sans-serif;
+    color: var(--title-color);
+}
